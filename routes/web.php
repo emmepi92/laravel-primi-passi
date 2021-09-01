@@ -32,3 +32,10 @@ Route::get('/about-me', function () {
 Route::get('/info', function () {
     return view('info');
 });
+
+Route::get('/photo', function () {
+    return view('photo',
+    [
+        'srcPhoto' => 'https://truth.bahamut.com.tw/s01/201806/a01c8dd0810df54585f3d2deb318dbaa.JPG'
+    ]);
+});

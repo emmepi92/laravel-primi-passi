@@ -14,6 +14,7 @@
         <ul>
             <li><a href="./about-me">About me</a></li>
             <li><a href="./info">Info</a></li>
+            <li><a href="./photo">Foto</a></li>
         </ul>
     </nav>
     
