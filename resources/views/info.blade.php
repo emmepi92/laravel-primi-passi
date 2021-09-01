@@ -7,15 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Benvenuta {{ $name }}</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio laudantium esse temporibus neque blanditiis minima fugit explicabo eius aperiam, excepturi sint eaque veniam facere. Ducimus ex est odit corporis?</p>
+    <a href="/">Go back</a>
 
-    <nav>
-        <ul>
-            <li><a href="./about-me">About me</a></li>
-            <li><a href="./info">Info</a></li>
-        </ul>
-    </nav>
     
 </body>
 </html>

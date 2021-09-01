@@ -18,3 +18,17 @@ Route::get('/', function () {
         ['name' => 'Pia']    
     );
 });
+
+Route::get('/about-me', function () {
+    return view('about-me',
+        [
+            'name' => 'Pia',
+            'surname' => 'Coccioli',
+            'age' => '29'
+        ]
+    );
+});
+
+Route::get('/info', function () {
+    return view('info');
+});

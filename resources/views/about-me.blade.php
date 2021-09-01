@@ -7,15 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Benvenuta {{ $name }}</p>
-
-    <nav>
-        <ul>
-            <li><a href="./about-me">About me</a></li>
-            <li><a href="./info">Info</a></li>
-        </ul>
-    </nav>
+    <div>
+        Nome: {{ $name }}, <br/>
+        Cognome: {{ $surname }}, <br/>
+        Età: {{ $age }} <br/>
+    </div>
+    <a href="/">Go back</a>
     
 </body>
 </html>
